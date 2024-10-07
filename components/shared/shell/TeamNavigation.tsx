@@ -18,10 +18,10 @@ const TeamNavigation = ({ slug, activePathname }: NavigationItemsProps) => {
       active: activePathname === `/teams/${slug}/products`,
     },
     {
-      name: t('all-products'),
-      href: `/teams/${slug}/products`,
+      name: t('canvas-name'),
+      href: `/teams/${slug}/cbcanvas`,
       icon: CodeBracketIcon,
-      active: activePathname === `/teams/${slug}/products`,
+      active: activePathname === `/teams/${slug}/cbcanvas`,
     },
     {
       name: t('settings'),
@@ -29,7 +29,8 @@ const TeamNavigation = ({ slug, activePathname }: NavigationItemsProps) => {
       icon: Cog6ToothIcon,
       active:
         activePathname?.startsWith(`/teams/${slug}`) &&
-        !activePathname.includes('products'),
+        !activePathname.includes('products') && 
+        !activePathname.includes('cbcanvas'),
     },
   ];
 

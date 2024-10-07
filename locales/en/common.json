@@ -73,8 +73,8 @@
   "edit-webhook-endpoint": "Edit Webhook Endpoint",
   "events-to-send": "Events to send",
   "events-description": "You can choose which events are sent to which endpoint. By default, all messages are sent to all endpoints.",
-  "kickstart-your-enterprise": "Kickstart your enterprise app development with Next.js SaaS Starter Kit",
-  "enterprise-saas-kit": "Enterprise SaaS Starter Kit",
+  "kickstart-your-enterprise": "Kickstart your Enterprise workflow automation using the power of AI Agents",
+  "enterprise-saas-kit": "Enterprise Agent Workflow Builder",
   "frequently-asked": "Frequently asked questions",
   "pricing": "Pricing",
   "buy-now": "Buy now",
@@ -146,7 +146,7 @@
   "verify-your-account": "Verify your account",
   "verify-account-expired": "This verification link has expired. Please enter the email address associated with your account, and we'll send you another verification link.",
   "verify-account-link-sent": "Verification link sent. Please check your email.",
-  "homepage-title": "Enterprise SaaS Starter Kit by BoxyHQ",
+  "homepage-title": "Enterprise Agent Workflows",
   "sign-up-title": "Sign Up | BoxyHQ ",
   "login-title": "Login | BoxyHQ",
   "forgot-password-title": "Reset Password | BoxyHQ",
@@ -189,7 +189,7 @@
   "select-a-session-to-delete": "Please select a session to delete",
   "api-keys": "API Keys",
   "api-keys-description": "API keys allow you to authenticate with the API.",
-  "product-placeholder": "This is just a placeholder for the products page.",
+  "product-placeholder": "Placeholder for other product features.",
   "request-new-link": "Request new link",
   "unlock-account-link-sent": "A new link has been sent to your email address.",
   "or": "or",
@@ -246,5 +246,7 @@
   "internal-server-error": "Internal Server Error !",
   "unable-to-find": "We're unable to find out what's happening! We suggest you to",
   "try-again-later": "or visit here later.",
-  "multiple-sso-teams": "User belongs to multiple teams with SSO enabled. Please enter your team slug to get started."
+  "multiple-sso-teams": "User belongs to multiple teams with SSO enabled. Please enter your team slug to get started.",
+  "canvas-name": "Agent Canvas",
+  "canvas-header-title": "Build your AI Agent using the canvas below."
 }
